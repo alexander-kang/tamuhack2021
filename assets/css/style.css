@@ -629,7 +629,7 @@ section {
   font-size: 24px;
 }
 
-.who .icon-box h4 a {
+.who .icon-box h4 .fancy {
   color: #37517e;
   transition: ease-in-out 0.3s;
 }
@@ -644,7 +644,7 @@ section {
   transform: translateY(-10px);
 }
 
-.who .icon-box:hover h4 a {
+.who .icon-box:hover h4 .fancy{
   color: #47b2e4;
 }
 
