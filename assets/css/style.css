@@ -3,7 +3,7 @@
 * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
-!!! TO CHANGE ACCENT COLORS: CHANGE LINES 47, 102, 108, 122, 175, 303, 393, 780 !!!
+!!! TO CHANGE ACCENT COLORS: CHANGE LINES 47, 102, 108, 122, 175, 218, 235, 242, 303, 393, 780 !!!
 */
 /*--------------------------------------------------------------
 # General
@@ -604,74 +604,74 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Who We Are
 --------------------------------------------------------------*/
-.services .icon-box {
+.who .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
 }
 
-.services .icon-box .icon {
+.who .icon-box .icon {
   margin-bottom: 10px;
 }
 
-.services .icon-box .icon i {
+.who .icon-box .icon i {
   color: #47b2e4;
   font-size: 36px;
   transition: 0.3s;
 }
 
-.services .icon-box h4 {
+.who .icon-box h4 {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.who .icon-box h4 a {
   color: #37517e;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.who .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.who .icon-box:hover {
   transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
+.who .icon-box:hover h4 a {
   color: #47b2e4;
 }
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq .faq-list {
+.how .how-list {
   padding: 0 100px;
 }
 
-.faq .faq-list ul {
+.how .how-list ul {
   padding: 0;
   list-style: none;
 }
 
-.faq .faq-list li + li {
+.how .how-list li + li {
   margin-top: 15px;
 }
 
-.faq .faq-list li {
+.how .how-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
 }
 
-.faq .faq-list a {
+.how .how-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -683,7 +683,7 @@ section {
   cursor: pointer;
 }
 
-.faq .faq-list .icon-help {
+.how .how-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
@@ -691,41 +691,41 @@ section {
   color: #47b2e4;
 }
 
-.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+.how .how-list .icon-show, .how .how-list .icon-close {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.faq .faq-list p {
+.how .how-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.faq .faq-list .icon-show {
+.how .how-list .icon-show {
   display: none;
 }
 
-.faq .faq-list a.collapsed {
+.how .how-list a.collapsed {
   color: #37517e;
   transition: 0.3s;
 }
 
-.faq .faq-list a.collapsed:hover {
+.how .how-list a.collapsed:hover {
   color: #47b2e4;
 }
 
-.faq .faq-list a.collapsed .icon-show {
+.how .how-list a.collapsed .icon-show {
   display: inline-block;
 }
 
-.faq .faq-list a.collapsed .icon-close {
+.how .how-list a.collapsed .icon-close {
   display: none;
 }
 
 @media (max-width: 1200px) {
-  .faq .faq-list {
+  .how .how-list {
     padding: 0;
   }
 }
