@@ -435,37 +435,46 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Product
+# Intro
 --------------------------------------------------------------*/
-.product .content h3 {
+.intro .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
 
-.product .content ul {
-  list-style: none;
+.intro .content ul {
+  list-style-type: none;
   padding: 0;
 }
 
-.product .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
-
-.product .content ul li + li {
+.intro .content ul li + li {
   margin-top: 10px;
 }
 
-.product .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: #47b2e4;
+.intro .content ul i {
+  position: relative;
+  bottom: 1px;
+  padding-right: 7px;
+  font-size: 9px;
+  color: black;
   line-height: 1;
 }
 
-.product .content p:last-child {
+.intro .content .light {
+  color: rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+.intro .content a {
+  color: #000080;
+  text-decoration: underline;
+}
+
+.intro .content a:hover {
+  color: #97caef;
+}
+
+.intro .content p:last-child {
   margin-bottom: 0;
 }
 
